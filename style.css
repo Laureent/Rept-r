@@ -9,6 +9,7 @@ header{
     border-bottom: 3px white solid;
     box-shadow: 10px 10px 20px #454545;
     background-color: #FF9B00;
+    position:relative;
 }
 body{
     background-color: #007A78;
@@ -33,4 +34,42 @@ header a:hover {
     color: white;
     box-shadow: 10px 10px 20px #454545;
     margin-top: 20px; ;
+}
+nav{
+    background-color: #007A78;
+    width: 800px;
+    margin: auto;
+    position: absolute;
+    left: 550px;
+    bottom: 10px;
+    box-shadow: 10px 10px 20px #454545;
+    border-radius: 10px;
+}
+nav ul{
+    list-style-type: none;
+    display:flex;
+    align-content: center;
+    flex-direction: row;
+    justify-content: space-evenly; 
+}
+nav li{
+    margin:auto;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    border: 3px white solid;
+    background-color: white;
+    color: #007A78;
+    box-shadow: 5px 5px 10px #454545;
+    font-family: 'Bebas Neue', cursive;
+    margin-top: 15px;
+    padding-left :10px;
+    padding-right :10px;
+    padding-top :10px;
+}
+nav li:hover{
+    transition: 0.3s;
+    cursor: pointer;
+    border-radius: 15px;
+    box-shadow: 8spx 8px 15px #454545;
 }
