@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+header{
+    background-image: url(img/kép-removebg-preview.png);
+    background-repeat: no-repeat;
+    height: 700px;
+    background-attachment: stretch;
+    background-size:cover;
+    background-position: center;
+    border-bottom: 3px white solid;
+    box-shadow: 10px 10px 20px #454545;
+    background-color: #FF9B00;
+}
+body{
+    background-color: #007A78;
+}
+h1{
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    font-size: 200px;
+    -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: white;
+}
+header a {
+    color: black;
+    text-decoration: none;
+}
+header a:hover {
+    color: black;
+    text-shadow:5px 5px 10px #ffffff;
+}
+.container{
+    background-color: #FF9B00;
+    color: white;
+    box-shadow: 10px 10px 20px #454545;
+    margin-top: 20px; ;
+}
