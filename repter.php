@@ -9,17 +9,27 @@
     <link rel="icon" href="img/airport.png" type="image/icon type">
 </head>
 <body>
-    <header>
-        <a href="https://www.youtube.com/watch?v=wDQ6pU5re-0"><h1>RepTér</h1></a>
-     <nav>
-         <ul>
-             <li><p>érkező</p></li>
-             <li><p>távozó</p></li>
-             <li><p>valami</p></li>
-         </ul>
-     </nav>
+    <header class="container-fluid">
+        <div class="row">
+            <div class="col-4" id="p1">
+            </div>
+            <div class="col-4" id="nav">
+                <nav>
+                   <div class="row">
+                        <div class="col-6" id="bel1">
+                            <p>REPTÉR</p>
+                        </div>
+                        <div class="col-6" id="bel1">
+                            <p>REPTÉR</p>
+                        </div>
+                   </div>
+                </nav>
+            </div>
+            <div class="col-4" id="p2">
+            </div>
+        </div>
     </header>
-    <div class="container">
+    <div class="container" id="main">
         <div class="row">
             
             <div class="col-md-4">
