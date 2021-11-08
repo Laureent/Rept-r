@@ -9,17 +9,20 @@ body{
     margin-top: 20px; ;
 }
 .container-fluid{
-    background-image: url("img/kép-removebg-preview.png");
+    background-image: url("img/gyurko.png");
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: fixed ;
     background-size: cover;
 }
 #nav{
-    margin-top:70em;
+    margin-top: 50em;
     background-color: #ff9b00;
+    box-shadow: 10px 10px 20px #242424;
     border-radius: 10px;
 }
 #bel1{
+    display: flex;
+    justify-content: center;
     padding: 10px;
 }
 #bel1 p{
@@ -28,5 +31,20 @@ body{
     padding: 10px;
     background-color: white;
     border-radius: 20px;
+}
+.btn{
+    background-color: rgb(255, 255, 255);
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    transition: border-radius 1s ,background-color 1s;
+    
+}
+.btn:hover{
+    border-radius: 20px;
+    
+}
+.btn:active{
+    background-color: rgb(201, 201, 201);
+    
 }
 

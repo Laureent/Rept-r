@@ -8,19 +8,22 @@
     <title>Gyuri</title>
     <link rel="icon" href="img/airport.png" type="image/icon type">
 </head>
-<body>
+<body><script src="airport.js"></script>
+    
     <header class="container-fluid">
-        <div class="row">
+        <div  class="row">
             <div class="col-4" id="p1">
             </div>
             <div class="col-4" id="nav">
                 <nav>
                    <div class="row">
-                        <div class="col-6" id="bel1">
-                            <p>REPTÉR</p>
+                        <div class="col-md-6 col-xs-12" id="bel1">
+                            
+                            <input class="btn" type="button" onmouseover="playMusic1()" value="Távozik">
                         </div>
-                        <div class="col-6" id="bel1">
-                            <p>REPTÉR</p>
+                        <div class="col-md-6 col-xs-12" id="bel1">
+                            
+                            <input class="btn" type="button" onmouseover="playMusic2()" value="Érkező ">
                         </div>
                    </div>
                 </nav>
