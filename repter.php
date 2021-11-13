@@ -1,3 +1,10 @@
+<?php
+
+    include('megjelenites.php');
+    $departure = new Megjelenites();
+    $arrival = new Megjelenites();
+?>
+
 <!DOCTYPE html>
 <html lang="hu">
 <head>
