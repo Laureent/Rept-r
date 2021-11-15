@@ -1,5 +1,7 @@
 <?php
-
+    /*
+     * Lekérdezés osztály, repülési adatok lekérdezése és eltárolása egy asszociatív tömbbe*
+     * */
     class Lekredezes{
         private $response;
         public $json_data;

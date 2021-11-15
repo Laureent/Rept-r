@@ -1,5 +1,11 @@
 <?php
-    
+
+    /*
+     * megjelenites.php meghivása
+     *
+     * $flights változó -> osztály példányosítása a metódusok meghívásához
+     */
+
     include('megjelenites.php');
     $flights = new Megjelenites();
     
