@@ -9,7 +9,7 @@ body{
     margin-top: 20px; ;
 }
 .container-fluid{
-    background-image: url("img/gyurko.png");
+    background-image: url("../img/gyurko.png");
     background-repeat: no-repeat;
     background-attachment: fixed ;
     background-size: cover;

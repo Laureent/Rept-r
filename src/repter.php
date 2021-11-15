@@ -1,8 +1,8 @@
 <?php
-    /*
+    
     include('megjelenites.php');
     $flights = new Megjelenites();
-    */
+    
 ?>
 
 <!DOCTYPE html>
@@ -20,6 +20,7 @@
     <header class="container-fluid">
         <div  class="row">
             <div class="col-4" id="p1">
+                <h1>Seoul (Incheon) reptér</h1>
             </div>
             <div class="col-4" id="nav">
                 <nav>
@@ -51,15 +52,7 @@
 
                     }
                 ?>
-                <!--<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla architecto illo harum distinctio dicta, non veniam, deserunt cupiditate culpa reiciendis at libero iusto et nihil atque quibusdam ut ipsa error.</p>-->
-            </div>
-            <!--<div class="col-md-4">
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla architecto illo harum distinctio dicta, non veniam, deserunt cupiditate culpa reiciendis at libero iusto et nihil atque quibusdam ut ipsa error.</p>
-            </div>
-            <div class="col-md-4">
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla architecto illo harum distinctio dicta, non veniam, deserunt cupiditate culpa reiciendis at libero iusto et nihil atque quibusdam ut ipsa error.</p>
-            </div>-->
-        </div>
+            </div>       
     </div>
 </body>
 </html>
