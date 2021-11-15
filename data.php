@@ -6,7 +6,7 @@
 
         public function __construct()
         {
-            $this->response = file_get_contents('http://api.aviationstack.com/v1/flights?access_key=8cae8a035a9ad3134cccd425fd722798');
+            $this->response = file_get_contents('http://api.aviationstack.com/v1/flights?access_key=5a35681b31d2d4cc92a3628794ebe890');
             $this->json_data = json_decode($this->response,true);
         }
     }

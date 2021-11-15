@@ -1,8 +1,8 @@
 <?php
-
+    /*
     include('megjelenites.php');
-    $departure = new Megjelenites();
-    $arrival = new Megjelenites();
+    $flights = new Megjelenites();
+    */
 ?>
 
 <!DOCTYPE html>
@@ -24,14 +24,14 @@
             <div class="col-4" id="nav">
                 <nav>
                    <div class="row">
-                        <div class="col-md-6 col-xs-12" id="bel1">
-                            
-                            <input class="btn" type="button" onmouseover="playMusic1()" value="Távozik">
-                        </div>
-                        <div class="col-md-6 col-xs-12" id="bel1">
-                            
-                            <input class="btn" type="button" onmouseover="playMusic2()" value="Érkező ">
-                        </div>
+                        <form method="post">
+                            <div class="col-md-6 col-xs-12" id="bel1">
+                                <input class="btn" type="submit" onmouseover="playMusic1()" name="indulo" value="Induló">
+                            </div>
+                            <div class="col-md-6 col-xs-12" id="bel1">
+                                <input class="btn" type="submit" onmouseover="playMusic2()" name="erkezo" value="Érkező">
+                            </div>
+                        </form>
                    </div>
                 </nav>
             </div>
@@ -41,16 +41,24 @@
     </header>
     <div class="container" id="main">
         <div class="row">
-            
-            <div class="col-md-4">
+            <div class="col-12">
+                <?php
+                    if (array_key_exists("indulo",$_POST)){
+                        $flights->induloKiir();
+                    }elseif (array_key_exists("erkezo",$_POST)){
+                        $flights->erkezoKiir();
+                    }else{
+
+                    }
+                ?>
+                <!--<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla architecto illo harum distinctio dicta, non veniam, deserunt cupiditate culpa reiciendis at libero iusto et nihil atque quibusdam ut ipsa error.</p>-->
+            </div>
+            <!--<div class="col-md-4">
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla architecto illo harum distinctio dicta, non veniam, deserunt cupiditate culpa reiciendis at libero iusto et nihil atque quibusdam ut ipsa error.</p>
             </div>
             <div class="col-md-4">
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla architecto illo harum distinctio dicta, non veniam, deserunt cupiditate culpa reiciendis at libero iusto et nihil atque quibusdam ut ipsa error.</p>
-            </div>
-            <div class="col-md-4">
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla architecto illo harum distinctio dicta, non veniam, deserunt cupiditate culpa reiciendis at libero iusto et nihil atque quibusdam ut ipsa error.</p>
-            </div>
+            </div>-->
         </div>
     </div>
 </body>
