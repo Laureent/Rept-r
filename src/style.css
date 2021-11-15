@@ -1,49 +1,54 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 body{
     background-color: #007A78;
+    
 }
 #main{
     background-color: #FF9B00;
     color: white;
     box-shadow: 10px 10px 20px #454545;
-    margin-top: 20px; ;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    border-radius: 5px;
 }
 .container-fluid{
-    background-image: url("../img/gyurko.png");
+    background-image: url("../img/GYURI1.png");
     background-repeat: no-repeat;
-    background-attachment: fixed ;
-    background-size: cover;
+    background-size: 100%;
+    border-bottom: solid white 3px;
 }
 #nav{
-    margin-top: 50em;
+    display: flex;
+    justify-content: center;
+    margin-top: 40em;
     background-color: #ff9b00;
     box-shadow: 10px 10px 20px #242424;
     border-radius: 10px;
 }
-#bel1{
-    display: flex;
+form{
     justify-content: center;
-    padding: 10px;
-}
-#bel1 p{
-    margin: auto;
-    text-align: center;
-    padding: 10px;
-    background-color: white;
-    border-radius: 20px;
 }
 .btn{
+    margin: 20px;
     background-color: rgb(255, 255, 255);
     background-repeat: no-repeat;
     border-radius: 10px;
-    transition: border-radius 1s ,background-color 1s;
+    transition: border-radius 1s ,background-color 1s ,box-shadow 1s;
     
 }
 .btn:hover{
     border-radius: 20px;
+    box-shadow: 10px 2px 10px #333333;
     
 }
 .btn:active{
     background-color: rgb(201, 201, 201);
 }
-
+table{
+    background-color: rgb(223, 194, 151);
+    color: white;
+    border-radius: 10px;
+    width: 100%;
+    margin: auto;
+}
