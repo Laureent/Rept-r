@@ -1,16 +1,29 @@
 <?php
+    /*
+     *A data.php-ban található tömb feldolgozása
+     * */
     include('data.php');
     date_default_timezone_set("Europe/Budapest");
 
     class Megjelenites extends Lekredezes {
-
+        /*
+         * Jelenlegi idő
+         * */
         public $time;
 
+        /*
+         * Ősosztály konstruktor meghívása, jelenlegi idő beállítása.
+         * */
         public function __construct()
         {
             parent::__construct();
             $this->time = date("h:i");
         }
+
+        /*
+         *
+         * Induló járatok kiírása egy táblába
+         * */
 
         function induloKiir(){
             echo "<table>";
@@ -33,6 +46,10 @@
             echo "</table>";
         }
 
+
+        /*
+         * Érkező járatok kiírása egy táblába         *
+         * */
         function erkezoKiir(){
             echo "<table>";
             echo "<tr><th>Honnan</th><th>Érkezés</th><th>Terminál</th><th>Kapu</th><th>Késés</th></tr>";
